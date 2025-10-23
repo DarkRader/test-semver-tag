@@ -4,3 +4,5 @@
 - test minor
 
 - again test
+
+- Breaking change
