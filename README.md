@@ -4,4 +4,4 @@ init commit
 
 - minor tag
 
-- major tag
+- fix commit
