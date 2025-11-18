@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.2.0](https://github.com/DarkRader/test-semver-tag/compare/v1.1.0...v1.2.0) (2025-11-18)
+
+
+### Features
+
+* use action from marketplace ([c2147ff](https://github.com/DarkRader/test-semver-tag/commit/c2147fff50e02db403cf9a074941609a9749a632))
+
+
+### Bug Fixes
+
+* control output tags ([1f47727](https://github.com/DarkRader/test-semver-tag/commit/1f4772787505d6309d495cba075591d41ac555c4))
+* fetch-depth in job ([b333e58](https://github.com/DarkRader/test-semver-tag/commit/b333e58acca9a77bb14e4a6c9d8f16e77a85636a))
+* remove commented code in action ([6d6a8a6](https://github.com/DarkRader/test-semver-tag/commit/6d6a8a6e8f1795cc023d779199422ad30bb88a23))
+* test ([943cbf1](https://github.com/DarkRader/test-semver-tag/commit/943cbf168a66e8b21db51f665e06bd93329ca271))
+* test tag ([d7b2e71](https://github.com/DarkRader/test-semver-tag/commit/d7b2e71dad1e2e4063d8150684c1ed0e9a1e22f5))
+
 ## [1.1.0](https://github.com/DarkRader/test-semver-tag/compare/v1.0.0...v1.1.0) (2025-11-18)
 
 
