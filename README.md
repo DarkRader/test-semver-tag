@@ -4,8 +4,4 @@ init commit
 
 - minor tag
 
-- fix commit again aga
-
-- refactor test
-
-- fix test again
+- refactor: test
