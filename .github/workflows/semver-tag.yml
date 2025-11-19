@@ -21,14 +21,9 @@ jobs:
           # For general repos with no package files, use "simple"
           release-type: simple
 
-          # Create GitHub releases & tags
-          create-release: true
 
           # Use default (main) branch as source
-          default-branch: main
-
-          # Optionally set the tag prefix to "v" (default!)
-          bump-minor-pre-major: true
-          bump-patch-for-minor-pre-major: true
+          target-branch: main
             
+          # Path to the release-please config in the repository
           config-file: .github/release-please-config.json
