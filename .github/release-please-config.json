@@ -1,0 +1,6 @@
+{
+  "always-bump-patch": true,
+  "changelog-types": [
+    {"type": "refactor", "section": "Refactors", "hidden": false}
+  ]
+}
