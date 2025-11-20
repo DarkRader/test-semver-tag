@@ -1,95 +1,26 @@
-# name: Release
-
-# on:
-#   push:
-#     branches:
-#       - main
-#     tags:
-#       - '*'
-
-# permissions:
-#   contents: write
-#   pull-requests: write
-
-# jobs:
-#   release-please:
-#     runs-on: ubuntu-latest
-
-#     steps:
-#       - name: Run Release Please
-#         uses: googleapis/release-please-action@v4
-#         with:
-#           # Choose the release type depending on your project
-#           # For general repos with no package files, use "simple"
-#           release-type: simple
-
-
-#           # Use default (main) branch as source
-#           target-branch: main
-#             
-#           # Path to the release-please config in the repository
-#           config-file: .github/release-please-config.json
-
-#       - name: "Build Changelog"
-#         id: build_changelog
-#         if: startsWith(github.ref, 'refs/tags/')
-#         uses: mikepenz/release-changelog-builder-action@v6
-#         with:
-#           configuration: "configuration_complex.json"
-#           owner: "mikepenz"
-#           repo: "release-changelog-builder-action"
-#           
-#   release-please:
-#     # only run release-please on main branch pushes
-#     if: startsWith(github.ref, 'refs/heads/main')
-#     runs-on: ubuntu-latest
-
-#     steps:
-#       - name: Run Release Please
-#         uses: googleapis/release-please-action@v4
-#         with:
-#           release-type: simple
-#           target-branch: main
-#           config-file: .github/release-please-config.json
-name: Release
+name: Test Changelog Builder
 
 on:
   push:
-    branches:
-      - main
     tags:
-      - '*'
+      - '*'   # runs on any tag
 
 permissions:
   contents: write
   pull-requests: write
 
 jobs:
-
-  release-please:
-    # only run release-please on main branch pushes
-    if: startsWith(github.ref, 'refs/heads/main')
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Run Release Please
-        uses: googleapis/release-please-action@v4
-        with:
-          release-type: simple
-          target-branch: main
-          config-file: .github/release-please-config.json
-
   build-changelog:
-    # only run changelog builder on tag pushes
-    if: startsWith(github.ref, 'refs/tags/')
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Build Changelog
         id: build_changelog
         uses: mikepenz/release-changelog-builder-action@v6
         with:
           configuration: "configuration_complex.json"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          owner: "${{ github.repository_owner }}"
+          repo: "${{ github.event.repository.name }}"
