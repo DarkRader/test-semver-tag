@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/DarkRader/test-semver-tag/compare/v1.3.1...v1.3.2) (2025-11-20)
+
+
+### Bug Fixes
+
+* proper trigger ([c4912d5](https://github.com/DarkRader/test-semver-tag/commit/c4912d5fdfbc5598286187b8a5e4ed52254057c8))
+
 ## [1.3.1](https://github.com/DarkRader/test-semver-tag/compare/v1.3.0...v1.3.1) (2025-11-20)
 
 
