@@ -25,3 +25,8 @@ jobs:
           owner: "${{ github.repository_owner }}"
           repo: "${{ github.event.repository.name }}"
           mode: "COMMIT"
+            
+      - name: Show Changelog
+        run: |
+          echo "===== GENERATED CHANGELOG ====="
+          echo "${{ steps.build_changelog.outputs.changelog }}"
