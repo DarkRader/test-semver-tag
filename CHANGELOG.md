@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.3.0](https://github.com/DarkRader/test-semver-tag/compare/v1.2.2...v1.3.0) (2025-11-20)
+
+
+### Features
+
+* add configuration for new bulder - test ([9d7a351](https://github.com/DarkRader/test-semver-tag/commit/9d7a351d35c65cb94b3bf1aa534037a8caee015d))
+* test change exit PR ([7ec06de](https://github.com/DarkRader/test-semver-tag/commit/7ec06de450a11f1ec96703a6636d22810f41a392))
+* test to mix this both ([b3d7c03](https://github.com/DarkRader/test-semver-tag/commit/b3d7c03c2c53a50961be2bcbc397f524ac18d48d))
+
+
+### Bug Fixes
+
+* move release type to config ([4966141](https://github.com/DarkRader/test-semver-tag/commit/49661412e30c192475ca362a4d357ac3e60fa1ca))
+* test add in README ([1e58999](https://github.com/DarkRader/test-semver-tag/commit/1e58999af8f334201d210d4130a42d58c79173c6))
+* test new section name ([b1e994f](https://github.com/DarkRader/test-semver-tag/commit/b1e994fb03844e7fc25bbb093b98b711dc4e0aef))
+
 ## [1.2.2](https://github.com/DarkRader/test-semver-tag/compare/v1.2.1...v1.2.2) (2025-11-18)
 
 
