@@ -1,32 +1,20 @@
-name: Test Changelog Builder
+name: SemVer Tag
 
 on:
   push:
-    tags:
-      - '*'   # runs on any tag
+    branches:
+      - main
 
 permissions:
   contents: write
   pull-requests: write
 
 jobs:
-  build-changelog:
+    release-please:
     runs-on: ubuntu-latest
-
+  
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Build Changelog
-        id: build_changelog
-        uses: mikepenz/release-changelog-builder-action@v6
-        with:
-          configuration: "configuration_complex.json"
-          owner: "${{ github.repository_owner }}"
-          repo: "${{ github.event.repository.name }}"
-          mode: "COMMIT"
-            
-      - name: Show Changelog
-        run: |
-          echo "===== GENERATED CHANGELOG ====="
-          echo "${{ steps.build_changelog.outputs.changelog }}"
+      - uses: googleapis/release-please-action@v4
+        with: 
+          target-branch: main
+      
