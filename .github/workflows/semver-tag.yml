@@ -9,21 +9,29 @@ permissions:
   contents: write
   pull-requests: write
 
+# jobs:
+#   release-please:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Run Release Please
+#         uses: googleapis/release-please-action@v4
+#         with:
+#           # Choose the release type depending on your project
+#           # For general repos with no package files, use "simple"
+#           release-type: simple
+
+
+#           # Use default (main) branch as source
+#           target-branch: main
+#             
+#           # Path to the release-please config in the repository
+#           config-file: .github/release-please-config.json
 jobs:
   release-please:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Run Release Please
-        uses: googleapis/release-please-action@v4
-        with:
-          # Choose the release type depending on your project
-          # For general repos with no package files, use "simple"
-          release-type: simple
-
-
-          # Use default (main) branch as source
-          target-branch: main
-            
-          # Path to the release-please config in the repository
-          config-file: .github/release-please-config.json
+      - name: "Build Changelog"
+        id: build_changelog
+        uses: mikepenz/release-changelog-builder-action@v6
