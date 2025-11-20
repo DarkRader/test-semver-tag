@@ -24,3 +24,4 @@ jobs:
           configuration: "configuration_complex.json"
           owner: "${{ github.repository_owner }}"
           repo: "${{ github.event.repository.name }}"
+          mode: "COMMIT"
