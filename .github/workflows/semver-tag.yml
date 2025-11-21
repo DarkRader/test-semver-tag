@@ -1,4 +1,4 @@
-name: SemVer Tag
+name: SemVer Tag Test
 
 on:
   push:
@@ -16,6 +16,6 @@ jobs:
     steps:
       - uses: googleapis/release-please-action@v4
         with: 
-          release-type: simple
+          command: manifest
           target-branch: main
       
