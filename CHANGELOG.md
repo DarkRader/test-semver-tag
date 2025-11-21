@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.2](https://github.com/DarkRader/test-semver-tag/compare/v2.1.1...v2.1.2) (2025-11-21)
+
+
+### 🛠️ Fixes
+
+* **test:** with space ([ab6f3fe](https://github.com/DarkRader/test-semver-tag/commit/ab6f3feca02a2072b82b3605d4f6dc70e83403a3))
+
 ## [2.1.1](https://github.com/DarkRader/test-semver-tag/compare/v2.1.0...v2.1.1) (2025-11-21)
 
 
