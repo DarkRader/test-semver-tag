@@ -11,7 +11,6 @@
     { "type": "refactor", "section": "🧹 Refactors", "hidden": false },
     { "type": "docs", "section": "📝 Documentation", "hidden": false }
   ],
-  "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
   "always-bump-patch": true
 }
