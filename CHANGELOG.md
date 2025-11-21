@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0](https://github.com/DarkRader/test-semver-tag/compare/v2.0.0...v2.1.0) (2025-11-21)
+
+
+### ✨ New Features
+
+* test again with remove bump-patch-for-minor-pre-major ([7c1e0ea](https://github.com/DarkRader/test-semver-tag/commit/7c1e0eac46171affbb25af1dd12b77e2341c58fd))
+* test semver commit ([e8ba014](https://github.com/DarkRader/test-semver-tag/commit/e8ba014824a718c6d62edc8559f7360dec5540bc))
+
 ## [2.0.0](https://github.com/DarkRader/test-semver-tag/compare/v1.4.0...v2.0.0) (2025-11-21)
 
 
