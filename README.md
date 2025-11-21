@@ -7,3 +7,5 @@ init commit
 - feat: test next commit 0 again
 
 - test proper patch 
+
+- test docs
