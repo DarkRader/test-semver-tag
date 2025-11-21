@@ -1,5 +1,40 @@
 # Changelog
 
+## [1.4.0](https://github.com/DarkRader/test-semver-tag/compare/v1.3.2...v1.4.0) (2025-11-21)
+
+
+### ✨ New Features
+
+* test only builder release ([e0426d4](https://github.com/DarkRader/test-semver-tag/commit/e0426d4673bf8097baf29247673332df6951778f))
+* use manifest mode and add configuration files ([51f04f1](https://github.com/DarkRader/test-semver-tag/commit/51f04f1404857af95078d7ee69e6b9e344d56a79))
+
+
+### 🧱 Updates & Improvements
+
+* add  generated logs ([8d3fddd](https://github.com/DarkRader/test-semver-tag/commit/8d3fddd2146bfcdd55bc6b111ec4f7fc7e526b0f))
+* add simple mode ([9ccf4f3](https://github.com/DarkRader/test-semver-tag/commit/9ccf4f32872eb28d758232388afa3f17dd09ecdf))
+
+
+### 🛠️ Fixes
+
+* change to commit mode ([eae4b47](https://github.com/DarkRader/test-semver-tag/commit/eae4b47ce54ae42609328a143846a19d7f6b8f5d))
+* Json format ([cc803df](https://github.com/DarkRader/test-semver-tag/commit/cc803dfba67b77c516c4e9d123f6c5c69f60a83a))
+* manifest ([09bc6eb](https://github.com/DarkRader/test-semver-tag/commit/09bc6eb411e47cb1e40dbd79fb856d3c8c76cd74))
+* path to config files ([357c144](https://github.com/DarkRader/test-semver-tag/commit/357c144509f630765fe39ae7fbdf020382d74da2))
+* return to release please action ([ab87a44](https://github.com/DarkRader/test-semver-tag/commit/ab87a44124137370ddcbfe61d7fff68a10a45d54))
+* syntax ([e7f3b6f](https://github.com/DarkRader/test-semver-tag/commit/e7f3b6f0ead5c5f894b627ba062cbefae3dca802))
+
+
+### 🧹 Refactors
+
+* change section name ([82881c9](https://github.com/DarkRader/test-semver-tag/commit/82881c91dc76e6409c70d3cddc0227da4d5bcf6d))
+* README ([f7d4a42](https://github.com/DarkRader/test-semver-tag/commit/f7d4a422a6b76853fff583dd053fc1f9f9443f1a))
+
+
+### 📝 Documentation
+
+* add and fix section try docs SemVer commit ([15d46d9](https://github.com/DarkRader/test-semver-tag/commit/15d46d92ac287c2a64035c41a62ebe07ab14687b))
+
 ## [1.3.2](https://github.com/DarkRader/test-semver-tag/compare/v1.3.1...v1.3.2) (2025-11-20)
 
 
