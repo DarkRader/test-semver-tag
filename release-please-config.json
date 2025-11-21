@@ -5,10 +5,11 @@
   },
   "include-component-in-tag": false,
   "changelog-sections": [
-    { "type": "feat", "section": "Features - test", "hidden": false },
-    { "type": "fix", "section": "Bug Fixes", "hidden": false },
-    { "type": "refactor", "section": "Refactors", "hidden": false },
-    { "type": "chore", "section": "Chores", "hidden": false }
+    { "type": "feat", "section": "✨ New Features", "hidden": false },
+    { "type": "chore", "section": "🧱 Updates & Improvements", "hidden": false },
+    { "type": "fix", "section": "🛠️ Fixes", "hidden": false },
+    { "type": "refactor", "section": "🧹 Refactors", "hidden": false },
+    { "type": "docs", "section": "📝 Documentation", "hidden": false },
   ],
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
