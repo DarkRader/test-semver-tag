@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/DarkRader/test-semver-tag/compare/v2.1.0...v2.1.1) (2025-11-21)
+
+
+### 📝 Documentation
+
+* test create patch with docs ([fe5614f](https://github.com/DarkRader/test-semver-tag/commit/fe5614f3c71ec02f96d379c88da521cbcccb6eac))
+
 ## [2.1.0](https://github.com/DarkRader/test-semver-tag/compare/v2.0.0...v2.1.0) (2025-11-21)
 
 
