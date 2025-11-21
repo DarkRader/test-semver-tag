@@ -5,7 +5,7 @@
   },
   "include-component-in-tag": false,
   "changelog-sections": [
-    { "type": "feat", "section": "Features", "hidden": false },
+    { "type": "feat", "section": "Features - test", "hidden": false },
     { "type": "fix", "section": "Bug Fixes", "hidden": false },
     { "type": "refactor", "section": "Refactors", "hidden": false },
     { "type": "chore", "section": "Chores", "hidden": false }
