@@ -12,9 +12,9 @@ permissions:
 jobs:
   release-please:
     runs-on: ubuntu-latest
-  
+
     steps:
       - uses: googleapis/release-please-action@v4
-        with: 
+        with:
           target-branch: main
-      
+          manifest-file: .github/.release-please-manifest.json
