@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.3](https://github.com/DarkRader/test-semver-tag/compare/v2.1.2...v2.1.3) (2025-12-06)
+
+
+### 🧱 Updates & Improvements
+
+* delete old config ([3a7e44b](https://github.com/DarkRader/test-semver-tag/commit/3a7e44b6c603310d922ea3df24ba6ec8a5da0f1c))
+
 ## [2.1.2](https://github.com/DarkRader/test-semver-tag/compare/v2.1.1...v2.1.2) (2025-11-21)
 
 
