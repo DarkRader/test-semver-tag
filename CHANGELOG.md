@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.1.4](https://github.com/DarkRader/test-semver-tag/compare/v2.1.3...v2.1.4) (2025-12-06)
+
+
+### 🧱 Updates & Improvements
+
+* delete manifest ([018fcd6](https://github.com/DarkRader/test-semver-tag/commit/018fcd6ffe95a702e80c41e282efc6db1a389ba4))
+
+
+### 🛠️ Fixes
+
+* return back manifest ([e086fc5](https://github.com/DarkRader/test-semver-tag/commit/e086fc560f649113198c735c0ceb258122b61baa))
+
 ## [2.1.3](https://github.com/DarkRader/test-semver-tag/compare/v2.1.2...v2.1.3) (2025-12-06)
 
 
