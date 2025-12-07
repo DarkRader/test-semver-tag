@@ -1,12 +1,14 @@
 name: Docker Build and Push
 
 on:
-  push:
-    tags:
-      - 'v*'
+  # push:
+  #   tags:
+  #     - 'v*'
   release:
     types:
+      - created
       - published
+      - edited
 
 jobs:
   build-and-push-image:
