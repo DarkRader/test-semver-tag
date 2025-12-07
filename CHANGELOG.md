@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.4](https://github.com/DarkRader/test-semver-tag/compare/v2.2.3...v2.2.4) (2025-12-07)
+
+
+### 🧪 Tests & Quality
+
+* buld trigger ([da34f4f](https://github.com/DarkRader/test-semver-tag/commit/da34f4f93e35d73ed15eff297cb1dcc324dcce05))
+
 ## [2.2.3](https://github.com/DarkRader/test-semver-tag/compare/v2.2.2...v2.2.3) (2025-12-07)
 
 
