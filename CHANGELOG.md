@@ -1,5 +1,12 @@
 # Backend Release Notes
 
+## [2.2.5](https://github.com/DarkRader/test-semver-tag/compare/v2.2.4...v2.2.5) (2025-12-07)
+
+
+### 🧱 Updates & Improvements
+
+* test change header of changelog ([2722128](https://github.com/DarkRader/test-semver-tag/commit/27221286927dd25580f94e93872188f18e357a3c))
+
 ## [2.2.4](https://github.com/DarkRader/test-semver-tag/compare/v2.2.3...v2.2.4) (2025-12-07)
 
 
