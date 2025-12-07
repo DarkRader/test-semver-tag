@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.2](https://github.com/DarkRader/test-semver-tag/compare/v2.2.1...v2.2.2) (2025-12-07)
+
+
+### 🧱 Updates & Improvements
+
+* add trigger in build image ([e23129c](https://github.com/DarkRader/test-semver-tag/commit/e23129c6e89e330fe5ef5d8398712d6f5dadcea0))
+
 ## [2.2.1](https://github.com/DarkRader/test-semver-tag/compare/v2.2.0...v2.2.1) (2025-12-07)
 
 
