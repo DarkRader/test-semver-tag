@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.2.3](https://github.com/DarkRader/test-semver-tag/compare/v2.2.2...v2.2.3) (2025-12-07)
+
+
+### 🧱 Updates & Improvements
+
+* trigger build ([ad44f14](https://github.com/DarkRader/test-semver-tag/commit/ad44f14301c8e38044936110b546de9d7b2c1b71))
+
+
+### 🧪 Tests & Quality
+
+* section ([afe70c8](https://github.com/DarkRader/test-semver-tag/commit/afe70c83f6816a398729b9916d72f2ed54610230))
+
+
+### ⚙️ DevOps & CI/CD
+
+* **DevOps:** section ([1001c4f](https://github.com/DarkRader/test-semver-tag/commit/1001c4f7c4060ff6cbbcfce5aa3f79b0a0476011))
+
 ## [2.2.2](https://github.com/DarkRader/test-semver-tag/compare/v2.2.1...v2.2.2) (2025-12-07)
 
 
