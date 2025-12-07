@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.1](https://github.com/DarkRader/test-semver-tag/compare/v2.2.0...v2.2.1) (2025-12-07)
+
+
+### 🧱 Updates & Improvements
+
+* use checkout ([6eb5d76](https://github.com/DarkRader/test-semver-tag/commit/6eb5d76a1e9f85d8f71f0d43b9e519554a6e2c32))
+
 ## [2.2.0](https://github.com/DarkRader/test-semver-tag/compare/v2.1.4...v2.2.0) (2025-12-07)
 
 
