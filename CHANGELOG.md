@@ -1,5 +1,35 @@
 # Changelog
 
+## [2.2.0](https://github.com/DarkRader/test-semver-tag/compare/v2.1.4...v2.2.0) (2025-12-07)
+
+
+### ✨ New Features
+
+* return release-please logic without using extra uses and test push by tag ([75b3abe](https://github.com/DarkRader/test-semver-tag/commit/75b3abe6ec0e6dcea721ad92daa83719e1b1d191))
+* use ci-template from CloudRader org ([241735c](https://github.com/DarkRader/test-semver-tag/commit/241735c1ca799d1501034c9ed607a629eed71b8c))
+
+
+### 🧱 Updates & Improvements
+
+* add path to config in action ([7e7fce8](https://github.com/DarkRader/test-semver-tag/commit/7e7fce8eed9e6ba6e995220a2b1fc09febf9c822))
+* move config to .github and add .gitignore ([9bfa2f1](https://github.com/DarkRader/test-semver-tag/commit/9bfa2f1617166610d4ceafde137d05364eaf98c5))
+* move manifest path to .github ([d6b5cfc](https://github.com/DarkRader/test-semver-tag/commit/d6b5cfc9d744fce866623157d1129a5c296b6bbb))
+* rename yaml to yml ([a8c8df6](https://github.com/DarkRader/test-semver-tag/commit/a8c8df6815cc9fc1b58bf4175ae7e23accc591a5))
+* trigger ci ([dd5ecf2](https://github.com/DarkRader/test-semver-tag/commit/dd5ecf21638d16f055f78629dc9b3f32e5289767))
+* trigger pipeline ([6abbb60](https://github.com/DarkRader/test-semver-tag/commit/6abbb60f98de37fccf2546ffc7da962c2ea72b73))
+
+
+### 🛠️ Fixes
+
+* add config test ([f7d2cc6](https://github.com/DarkRader/test-semver-tag/commit/f7d2cc6fdb956f9a10000e2e7e6c0dfc3904024b))
+* again ([be8d9d3](https://github.com/DarkRader/test-semver-tag/commit/be8d9d366035c1aaa3a41ed08f6fc135704745a0))
+* branch for test ([40ec97b](https://github.com/DarkRader/test-semver-tag/commit/40ec97bc8588243a4ee0c76d8b172d9fdf676007))
+* issue in template ([9b8d80c](https://github.com/DarkRader/test-semver-tag/commit/9b8d80c01ca3deffda1bf1e389fb9f5d43e8060a))
+* path to action ([0e7eb41](https://github.com/DarkRader/test-semver-tag/commit/0e7eb41c482008b17746582896146c3d43a68142))
+* path to config ([55f850d](https://github.com/DarkRader/test-semver-tag/commit/55f850db1a45b5a87b7ae61a764a96bffbc1b864))
+* try to use distance config again ([14bf9e7](https://github.com/DarkRader/test-semver-tag/commit/14bf9e7263e0c56a6c852ed9f5ef9e8f71f7ff58))
+* use branch ([a5d3893](https://github.com/DarkRader/test-semver-tag/commit/a5d3893deeba78ba2a064c87e0c7814722287e25))
+
 ## [2.1.4](https://github.com/DarkRader/test-semver-tag/compare/v2.1.3...v2.1.4) (2025-12-06)
 
 
