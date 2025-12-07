@@ -1,18 +1,16 @@
 name: Docker Build and Push
 
 on:
-  # push:
-  #   tags:
-  #     - 'v*'
-  release:
+  pull_request:
+    branches:
+      - main
     types:
-      - created
-      - published
-      - edited
+      - closed
 
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'release-please--branches--main'
     steps:
       - uses: actions/checkout@v5
         with:
