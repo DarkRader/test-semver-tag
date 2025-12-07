@@ -7,4 +7,4 @@ on:
 
 jobs:
   release:
-    uses: CloudRader/ci-templates/actions/release-please.yaml@v0.2.0
+    uses: CloudRader/ci-templates/actions/release-please.yaml@v0.2.1
