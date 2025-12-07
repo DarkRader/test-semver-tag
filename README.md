@@ -11,7 +11,3 @@ init commit
 - test docs
 
 - test format:
-
-- test with space:
-
-- triger ci
